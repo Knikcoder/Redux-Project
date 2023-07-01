@@ -1,0 +1,36 @@
+.overall{
+    margin: 5px 40px;
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: max-content;
+    font-size: 22px;
+    float: left;
+}
+.item input{
+    width: 400px;
+}
+.item p{
+    color:rgb(127, 127, 144);
+    text-align: left;
+    font-weight: 700;
+}
+.Doc-sub{
+    width: 200vh;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dotted blueviolet;
+    margin-top: 10px;
+
+}
+.Doc-sub{
+
+}
