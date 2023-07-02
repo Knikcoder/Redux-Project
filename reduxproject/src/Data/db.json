@@ -2,10 +2,10 @@
   "user": [
     {
       "id": 1,
-      "highest qualification": "json-server",
-      "Name of the institution": "typicode",
+      "hq": "json-server",
+      "institution": "typicode",
       "Course": " Btech",
-      "Years of experience": "2023"
+      "Experience": "2023"
       
 
 

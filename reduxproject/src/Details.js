@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Details.css'
 function Details() {
+    const[edn,ednchange]=useState('');
+    const[inst,instchange]=useState('');
+    const[course,coursechange]=useState('');
+    const[year,yearchange]=useState('');
+
   return (
+    <form>
     <div className='overall'>
     
     <div className='overall-items'>
@@ -131,6 +137,7 @@ function Details() {
     </div>
     </div>
     </div>
+    </form>
   )
 }
 
