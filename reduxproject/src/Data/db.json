@@ -1,24 +1,24 @@
 {
   "user": [
     {
-      "id": 1,
-      "hq": "json-server",
-      "institution": "typicode",
-      "Course": " Btech",
-      "Experience": "2023"
+      "hq": "Bachelors Degree",
+      "institution": "NIT Warangal",
+      "Course": "Btech",
+      "Experience": "Fresher",
+      "id": 1
     },
     {
-      "hq": "JNTU",
+      "hq": "Bachelors Degree",
       "institution": "JNTUGV",
-      "Course": "BTECH",
-      "Experience": "2023",
+      "Course": "BTech",
+      "Experience": "2",
       "id": 2
     },
     {
-      "hq": "PRIYA",
-      "institution": "SRI VIDYAVAHINI JR COLLEGE",
-      "Course": "BSC",
-      "Experience": "2021",
+      "hq": "Masters Degree",
+      "institution": "JNTUK",
+      "Course": "MA",
+      "Experience": "0",
       "id": 3
     }
   ]
