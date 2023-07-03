@@ -13,6 +13,13 @@
       "Course": "BTECH",
       "Experience": "2023",
       "id": 2
+    },
+    {
+      "hq": "PRIYA",
+      "institution": "SRI VIDYAVAHINI JR COLLEGE",
+      "Course": "BSC",
+      "Experience": "2021",
+      "id": 3
     }
   ]
 }
