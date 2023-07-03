@@ -1,4 +1,4 @@
-import { FAIL_REQUEST, GET_USERLIST, MAKE_REQUEST } from "./ActionType"
+import { ADD_USER, FAIL_REQUEST, GET_USERLIST, MAKE_REQUEST } from "./ActionType"
 import axios from 'axios'
 export const makeRequest = () => {
     return {
@@ -27,6 +27,23 @@ export const FetchUserList = () => {
             dispatch(getUserList(userList))
         }).catch(err => {
             dispatch(failRequest(err))
+        })
+    }
+}
+export const adduser = () => {
+    return {
+        type: ADD_USER
+    }
+}
+export const FunctionAddUser=(data)=>{
+    return(dispatch)=>{
+        dispatch(makeRequest());
+        axios.post('http://localhost:8000/user',data).then(
+            res=>{
+                dispatch(adduser());
+            }
+        ).catch(err=>{
+            dispatch(failRequest(err.message))
         })
     }
 }

@@ -6,9 +6,13 @@
       "institution": "typicode",
       "Course": " Btech",
       "Experience": "2023"
-      
-
-
+    },
+    {
+      "hq": "JNTU",
+      "institution": "JNTUGV",
+      "Course": "BTECH",
+      "Experience": "2023",
+      "id": 2
     }
   ]
 }
